@@ -1,0 +1,28 @@
+
+main{
+    display: grid;
+    grid-template-areas: "head head head"
+    "side content content"
+    "foot foot foot";
+    grid-template-rows:30px auto 30px;
+    text-align: center;
+}
+header{
+    grid-area: head;
+    background-color: blue;
+}
+article{
+    grid-area: content;
+    background-color: blueviolet;
+    
+}
+aside{
+    grid-area: side;
+    background-color: brown;
+    padding: 80px;
+    
+}
+footer{
+    grid-area: foot;
+    background-color: aquamarine;
+}
