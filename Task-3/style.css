@@ -1,0 +1,24 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 25px;
+    padding: 90px;
+   
+  }
+  
+  .card {
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .card h4{
+    text-align: center;
+  }
+  .head{
+    text-align: center;
+    color: #fff;
+  }
+  body{
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+  }
